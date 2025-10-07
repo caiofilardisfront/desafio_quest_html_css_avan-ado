@@ -1,0 +1,28 @@
+:root {
+    /* Definindo paleta de cores */
+    --purple-dark: hsl(257, 27%, 26%);
+  --purple: hsl(300, 69%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --text-dark: hsl(300, 10%, 10%);
+  --text-light: hsl(300, 24%, 96%);
+  /* Tipografia */
+  --ff-primary: 'Poppins', sans-serif;
+  --fw-regular: 300;
+  --fw-bold: 600
+}
+
+/* Redefinindo preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    color: var(--text-light);
+    background-color: var(--purple);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
