@@ -1,45 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.svg" alt="Huddle Logo" class="logo">
+        </header>
 
-  <header class="site-header">
-    <img src="./images/logo.svg" alt="Huddle logo" class="logo">
-    <button class="menu-btn" aria-label="Open menu">
-      <span class="hamburger"></span>
-    </button>
-  </header>
+        <main>
+            <div class="illustration">
+            </div>
+            <div class="content">
+                <h1>Build The Community Your Fans Will Love</h1>
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <button class="register-btn">Register</button>
+            </div>
+        </main>
 
-  <main>
-    <secttion class="hero">
-      <img src="./images/bg-desktop.svg" alt="App Mockup" class="hero-img">
-      <div class="hero-content">
-        <h1>Build The Community<br>Your Fans Will Love</h1>
-        <p>Huddle re‐imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-        <button class="btn register">Register</button>
-      </div>
-    </secttion>
-  </main>
-
-  <footer class="site-footer">
-    <ul class="social-list">
-      <li><a href="#" class="social-icon facebook"></a></li>
-      <li><a href="#" class="social-icon twitter"></a></li>
-      <li><a href="#" class="social-icon instagram"></a></li>
-    </ul>
-  </footer>
+        <footer>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
